@@ -26,7 +26,6 @@
 source "https://rubygems.org" do
   gem "faraday",             "~> 1.0", :require => false
   gem "faraday_middleware",  "~> 1.0.0.rc1", :require => false
-  gem "net-http-persistent", "~> 4.0", :require => false
   if RUBY_VERSION.start_with?("2.3") then
     gem "nokogiri",            "~> 1.10.4", :require => false
   else
